@@ -1,0 +1,16 @@
+HTTrack3.49-2 launched on Thu, 13 Oct 2022 19:55:59 at https://technext.github.io/feane/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://technext.github.io/feane/index.html -O "/home/kumartej/websites/food_service_1" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:03:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js
+20:05:30	Warning: 	HTML file (39537 bytes) retransferred due to lack of cache: https://technext.github.io/feane/menu.html
+20:05:43	Error: 	"Not Found" (404) at link https://technext.github.io/feane/fonts/fontawesome-webfont.eot?v=4.7.0 (from https://technext.github.io/feane/css/font-awesome.min.css)
+20:05:43	Error: 	"Not Found" (404) at link https://technext.github.io/feane/fonts/fontawesome-webfont.eot? (from https://technext.github.io/feane/css/font-awesome.min.css)
+20:05:43	Error: 	"Not Found" (404) at link https://technext.github.io/feane/fonts/fontawesome-webfont.svg?v=4.7.0 (from https://technext.github.io/feane/css/font-awesome.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 44 seconds : 41 links scanned, 53 files written (5736899 bytes overall) [2923753 bytes received at 5006 bytes/sec], 978602 bytes transferred using HTTP compression in 27 files, ratio 29%, 1.9 requests per connection
+(3 errors, 2 warnings, 0 messages)
